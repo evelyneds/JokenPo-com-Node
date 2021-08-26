@@ -1,20 +1,24 @@
 {
-  "name": "aula_luizacode01",
+  "name": "jokenpo",
   "version": "1.0.0",
   "description": "",
-  "main": "evelyn.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evelynsantos/LuizaCode.git"
+    "url": "git+https://github.com/evelynsantos/jokenpo.git"
   },
-  "author": "",
+  "author": "Evelyn Santos",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/evelynsantos/LuizaCode/issues"
+    "url": "https://github.com/evelynsantos/jokenpo/issues"
   },
-  "homepage": "https://github.com/evelynsantos/LuizaCode#readme",
-  "keywords": []
+  "homepage": "https://github.com/evelynsantos/jokenpo#readme",
+  "keywords": [],
+  "dependencies": {
+    "inquirer": "^8.1.2"
+  },
+  "devDependencies": {}
 }

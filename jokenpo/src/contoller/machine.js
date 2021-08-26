@@ -1,20 +1,20 @@
-class MachineOptions{
-    constructor({opt}){
+class MachineOptions {
+    constructor({ opt }) {
         this._opt = opt
     }
 
-sort(){
-    const sortOpt = Math.floor(Math.random()*3-0);
-    return this._opt[sortOpt].name
-}
-
-set opt(options){
-    this._opt = options    
+    sort() {
+        const sortOpt = Math.floor(Math.random() * 3 - 0);
+        return this._opt[sortOpt].name
     }
 
-get opt(){
-    return this._opt
-}
+    set opt(options) {
+        this._opt = options
+    }
+
+    get opt() {
+        return this._opt
+    }
 
 
 }
